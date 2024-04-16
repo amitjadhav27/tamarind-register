@@ -1,0 +1,45 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:86ca9f07-bc10-44be-934b-9c34d3f45f71",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-04-11T08:37:21.812Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "10.3.5",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@10.3.5",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@10.3.5",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "TabletApplication (1)",
+      "version": "latest",
+      "type": "application",
+      "bom-ref": "pkg:gem/TabletApplication (1)@latest",
+      "purl": "pkg:gem/TabletApplication%20(1)@latest",
+      "components": []
+    }
+  },
+  "components": [],
+  "services": [],
+  "dependencies": []
+}
